@@ -13,6 +13,9 @@ public class FindMaximumMain {
 		Float float2=2.2f;
 		Float float3=3.3f;
 		
+		Uc2 uc2=new Uc2();
+		uc2.findMax(float1, float2, float3);
+		
 		
 	}
 }
