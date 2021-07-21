@@ -6,13 +6,11 @@ import java.util.List;
 
 class Uc4<E> {
 
-	public <E extends Comparable<E>> E maxMethod(E... n) {
+	public <E extends Comparable<E>> E testMaximum(E... n) {
 
 		Arrays.sort(n);
-		for (E e : n) {
-			System.out.print(e+" ");
-		}
-		System.out.println("");
+		int length=n.length;
+		System.out.println(n[length-1]);
 		return null;
 
 	}

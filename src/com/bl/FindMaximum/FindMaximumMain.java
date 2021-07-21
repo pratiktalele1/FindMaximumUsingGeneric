@@ -47,7 +47,11 @@ public class FindMaximumMain {
 
 		//max method with unlimited oprands
 		Uc4<Integer> uc4 = new Uc4<Integer>();
-		uc4.maxMethod(100,90,80,75,26,14,32,78);
-		uc4.maxMethod(1.1f,12.5f,63.56f,4.2f,45.5f);
+		uc4.testMaximum(100,90,80,75,26,14,32,78);
+		uc4.testMaximum(1.1f,12.5f,63.56f,4.2f,45.5f);
+		
+		//generic print method
+		Uc5<Integer> uc5=new Uc5<Integer>();
+		uc5.maxMethod(100,90,80,75,26,14,32,78);
 	}
 }
