@@ -25,6 +25,7 @@ public class FindMaximumMain {
 //		Uc3 uc3 =new Uc3();
 //		uc3.findMax(string, string2, string3);
 		
+		//generating generic method object
 		Refactor1 refactor1=new Refactor1<Integer>();
 		refactor1.findMax(integer, integer2, integer3);
 		
@@ -33,5 +34,15 @@ public class FindMaximumMain {
 		
 		Refactor1 refactor3=new Refactor1<Integer>();
 		refactor3.findMax(string, string2, string3);
+		
+		//generting generic class object
+		Refactor2<Integer> refactor22=new Refactor2<Integer>(1,2,3);
+		refactor22.findMax(1, 2, 3);
+		
+		Refactor2<Float> refactor23=new Refactor2<Float>(1.1f,2.2f,3.3f);
+		refactor23.findMax(1.1f,2.2f,3.3f);
+		
+		Refactor2<String> refactor24=new Refactor2<String>("apple","mango","peach");
+		refactor24.findMax("apple","mango","peach");
 	}
 }
