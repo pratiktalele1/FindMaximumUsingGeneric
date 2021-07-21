@@ -1,7 +1,11 @@
 package com.bl.FindMaximum;
 
+import java.util.Optional;
+
+
 public class Uc1 {
 	
+
 	public static Integer findMax(Integer firstNumber, Integer secondNumber, Integer thirdNumber) {
 		Integer value = null;
 		if (thirdNumber.compareTo(firstNumber)>0 && thirdNumber.compareTo(secondNumber)>0) {
@@ -19,4 +23,6 @@ public class Uc1 {
 		}
 		return value;
 	}
+	
+
 }
